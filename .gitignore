@@ -1,0 +1,43 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.iws
+*.ipr
+
+# Build directories
+/target/
+/out/
+/build/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.settings/
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+*.class
+out/
+
+# VS Code
+.vscode/

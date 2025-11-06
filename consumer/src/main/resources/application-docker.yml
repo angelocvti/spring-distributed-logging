@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: consumer
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: log-consumer-group
+      auto-offset-reset: earliest
+  elasticsearch:
+    uris: http://elasticsearch:9200
+
+logging:
+  level:
+    root: INFO
